@@ -1,0 +1,185 @@
+/* General Styles */
+
+@font-face {
+	font-family: nexalight;
+	src: url("nexa/Nexa Light.otf") format("opentype");
+}
+@font-face {
+	font-family: nexabold;
+	src: url("nexa/Nexa Bold.otf") format("opentype");
+}
+
+*{
+	box-sizing: border-box;
+}
+
+html, body{
+	height:100%;
+	color:black;
+	background: white;
+	font-family: nexalight;
+}
+
+.sections{
+	padding-top: 3%;
+	padding-bottom: 5%;
+}
+
+.sections h1{
+	font-size: 50px;
+	color: #85ADFF;
+	padding-bottom: 2%;
+}
+
+.section h2{
+	font-size: 10px;
+}
+
+.text-center{
+	text-align:center;
+}
+
+/* Navbar */
+nav{
+	border: white;
+	background:black;
+}
+.navbar .nav,
+.navbar .nav > li {
+	float:none;
+	display:inline-block;
+	*display:inline; /* ie7 fix */
+	*zoom:1; /* hasLayout ie7 trigger */
+	vertical-align: top;
+}
+.navbar-inner {
+ 	text-align:center;
+}
+.navbar li a:hover{
+	text-decoration: underline;
+}
+
+/* Home Screen */
+#home{
+	background: url(img/beach.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	border:none;
+	color:white;
+	text-align: center;
+}
+#home img{
+	width: 200px;
+	margin:0 auto;
+}
+#home h1{
+	font-size: 90px;
+	font-family: nexabold;
+	color: white;
+	padding-top: 5%;
+}
+#home h2{
+	font-size: 24px;
+	font-style: italic;
+}
+#hometext {
+	margin-top: 5%;
+}
+#home h3{
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	font-size: 15px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#home a{
+	text-decoration: none;
+	color:white;
+}
+#home a:hover{
+	text-decoration: underline;
+}
+
+/* Intro */
+#intro{
+	padding-bottom: 10%;
+}
+#intro p{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+.bold{
+	font-family: nexabold;
+}
+
+/* Writing */
+#writing{
+	background-color: #E6E6E6;
+}
+#writing .container{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+#writing ul{
+	list-style-position: inside; 
+	padding-left: 0;
+}
+#writing ul li{
+	padding-bottom: 8%;
+}
+
+/* Photo */
+.view {
+overflow: hidden;
+position: relative;
+text-align: center;
+cursor: default;
+}
+#photo img{       
+    margin-bottom: 10%;
+}
+#photo .container{
+    margin-bottom:25px;           
+}
+#photo img {
+	width: 550px;
+	height:200px;
+}
+.flip{
+	text-align: center;
+	padding-bottom: 25px
+}
+
+/* Video */
+#video{
+	background-color: #E6E6E6;
+}
+
+/* About */
+#about img{
+	width:100%;
+}
+
+/* Footer */
+.footer{
+	text-align: center;
+	background-color: #E6E6E6;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	font-size: 25px;
+}
+.footer a{
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.footer #top{
+	font-size: 15px;
+	text-decoration: none;
+	color: black;
+}
